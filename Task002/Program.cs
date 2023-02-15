@@ -1,6 +1,6 @@
 ﻿//  Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
-Console.WriteLine("Please enter a three-digit number: ");
+Console.WriteLine("\nPlease enter a three-digit number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int thirdDigit = number % 100;
 

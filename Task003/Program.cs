@@ -1,6 +1,6 @@
 ﻿//Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным
 
-Console.Write("Please enter a number that corresponds to a day of the week (1-7): ");
+Console.Write("\nPlease enter a number that corresponds to a day of the week (1-7): ");
 int day = Convert.ToInt32(Console.ReadLine());
 
 if (day > 0 && day < 6)
