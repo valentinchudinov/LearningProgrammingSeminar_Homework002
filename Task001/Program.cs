@@ -5,6 +5,11 @@ int secondNumber;
 
 Console.Write("Enter a three digit number: ");
 num = Convert.ToInt32(Console.ReadLine());
-secondNumber = (num / 10) % 10;
 
-Console.Write("\nSecond digit of the number is : " + secondNumber);
+if(num >= 100 && num <= 999)
+{
+secondNumber = (num / 10) % 10;
+Console.Write("Second digit of the number is : " + secondNumber);
+}
+else
+Console.WriteLine($"Number {num} is not digit ");
